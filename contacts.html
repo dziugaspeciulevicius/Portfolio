@@ -3,7 +3,7 @@
   <head>
     <!-- Basic -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Glitche - Contacts</title>
+    <title>DP | Contacts</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -119,8 +119,8 @@
                 <div class="icon"><span class="ion ion-email"></span></div>
                 <div class="name">Email</div>
                 <p>
-                  <a href="mailto:steve-pearson@gmail.com"
-                    >steve-pearson@gmail.com</a
+                  <a href="mailto:dziugaspeciulevicius@gmail.com"
+                    >dziugaspeciulevicius@gmail.com</a
                   >
                 </p>
               </div>
@@ -133,7 +133,11 @@
               </div>
             </div>
             <div class="contact_form">
-              <form id="cform" method="post">
+              <form
+                action="https://formspree.io/f/maylvnle"
+                id="cform"
+                method="POST"
+              >
                 <div class="group-val">
                   <input type="text" name="name" placeholder="Name" />
                 </div>
@@ -143,19 +147,9 @@
                 <div class="group-val ct-gr">
                   <textarea name="message" placeholder="Message"></textarea>
                 </div>
-                <a
-                  href="#"
-                  class="btn fill"
-                  onclick="$('#cform').submit(); return false;"
-                  data-text="Send Message"
-                  >Send Message</a
-                >
+                <button type="submit" class="btn fill">Send Message</button>
               </form>
-              <div class="alert-success">
-                <p>
-                  Thanks, your message is sent successfully. We will contact you
-                  shortly!
-                </p>
+              <div id="status" >
               </div>
             </div>
           </div>
@@ -199,5 +193,6 @@
 
     <!-- Main Scripts -->
     <script src="js/glitche-scripts.js"></script>
+    <script src="js/mail_script.js"></script>
   </body>
 </html>
