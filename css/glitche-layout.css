@@ -825,9 +825,9 @@ header .head-top .top-menu ul li.active .btn {
   margin-top: 30px;
 }
 
-.section.contacts .alert-success {
-  display: none;
-}
+/* .section.contacts .alert-success { */
+  /* display: none; */
+/* } */
 
 .section.contacts .alert-success {
   margin: 60px 0 30px 0;
